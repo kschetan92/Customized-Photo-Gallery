@@ -1,0 +1,46 @@
+body {
+	padding-left: 200px;
+}
+
+.head {
+	color: teal;
+	text-decoration: underline;
+	height: 40px;
+	width: 1000px;
+}	
+
+#box {
+	border: 1px;
+	border-style: solid;
+	border-color: orange;
+	width: 960px;
+	padding-left: 0px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+li:nth-child(3n-2){
+	display: inline-block;
+	list-style-type: none;	
+	width: 200px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+li:nth-child(3n-1){
+	display: inline-block;
+	list-style-type: none;	
+	width: 200px;
+	margin: 0 180px 50px 180px;
+}
+li:nth-child(3n){
+	display: inline-block;
+	list-style-type: none;	
+	width: 200px;
+	margin-bottom: 50px;
+	float: right;
+	
+}
