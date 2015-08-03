@@ -1,5 +1,6 @@
 	body
 	{
+		border: 1px solid black;
 		min-width: 370px;
 	}
 	#box {
@@ -55,6 +56,6 @@
 	}
 	li:nth-child(3n){
 		float: right;
-		margin-left: 50px;
+		margin-left: 4%px;
 	}
 }
